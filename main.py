@@ -3,7 +3,7 @@ from keras.datasets import mnist
 from gan import GAN
 
 
-def task5():
+if __name__ == "__main__":
     (x_train, y_train), (_, _) = mnist.load_data()
     print("y_train shape", y_train.shape)
     print("x_train shape", x_train.shape)
